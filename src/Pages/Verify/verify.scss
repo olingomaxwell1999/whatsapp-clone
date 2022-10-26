@@ -1,0 +1,48 @@
+.verify {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .icon {
+    font-size: 60px !important;
+    border-radius: 50%;
+    background-color: var(--teal-green);
+    padding: 10px;
+  }
+
+  h3 {
+    width: 400px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+
+  .textbutton {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      font-size: 14px;
+      margin-bottom: 15px;
+
+      span {
+        color: var(--blue);
+      }
+    }
+
+    button {
+      padding: 10px 20px;
+      text-transform: uppercase;
+      background-color: var(--teal-green);
+      border: none;
+      border-radius: var(--border-radius);
+      margin-bottom: 15px;
+    }
+  }
+}

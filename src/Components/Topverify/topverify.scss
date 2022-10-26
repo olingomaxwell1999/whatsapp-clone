@@ -1,0 +1,22 @@
+.top {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .arrow {
+    margin-right: 50px;
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 20px;
+    color: var(--teal-green);
+    text-transform: capitalize;
+    margin-right: 50px;
+  }
+
+  .dot {
+    font-size: 20px;
+  }
+}
