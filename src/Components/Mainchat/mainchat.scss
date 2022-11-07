@@ -1,0 +1,50 @@
+.mainchat{
+    flex: 4;
+    padding: 10px;
+
+    .chat__footer{
+        display: flex;
+        position: fixed;
+        // justify-content: space-between;
+        align-items: center;
+        bottom: 0;
+        // left: 0;
+        flex: 4;
+        height: 60px;
+        background: #d3d3d3;
+        width: 100%;
+        padding: 10px;
+
+        .footer__icon{
+            font-size: 30px;
+            color: var(--dark);
+            margin-right: 20px;
+        }
+
+        form{
+            display: flex;
+            align-items: center;
+
+            input{
+                height: fit-content;
+                width: 1000px;
+                padding: 10px;
+                font-size: 18px;
+                border-radius: var(--border-radius);
+                outline: none;
+                margin-right: 20px;
+            }
+
+            button{
+                padding: 10px 20px;
+                border-radius: var(--border-radius);
+                background-color: var(--teal-green);
+                border: none;
+                outline: none;
+                color: var(--light);
+                text-transform: capitalize;
+                font-size: 20px;
+            }
+        }
+    }
+}

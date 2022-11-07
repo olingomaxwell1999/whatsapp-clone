@@ -1,0 +1,53 @@
+.chat{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+    transition: all .3s ease;
+
+    &:hover{
+        background-color: #d3d3d3;
+    }
+
+    .avatarpic{
+        height: 70px;
+        width: 70px;
+    }
+
+    .chat__info{
+        display: flex;
+        flex-direction: column;
+
+        h2{
+            font-size: 18px;
+        }
+
+        .ticks{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            .deivered{
+                color: var(--gray);
+            }
+
+            .ticked{
+                color: var(--blue);
+            }
+
+            p{
+                margin-left: 15px;
+            }
+        }
+
+        .date{
+            display: flex;
+            flex-direction: column;
+
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+    
+}

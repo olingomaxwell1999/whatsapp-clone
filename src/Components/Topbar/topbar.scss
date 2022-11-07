@@ -1,0 +1,35 @@
+.topbar{
+    height: 70px;
+    padding: 10px;
+    background-color: #d3d3d3;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .profile{
+        height: 50px;
+        width: 50px;
+        margin-right: 20px;
+    }
+
+    .namearea{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: var(--dark);
+    }
+
+    .iconarea{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .iconc{
+            font-size: 30px;
+            color: var(--dark);
+            margin-right: 20px;
+        }
+    }
+}
